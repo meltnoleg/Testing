@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Kalkulator Sederhana")
 
 angka1 = st.number_input("Masukkan angka pertama")
-angka2 = st.number_input("Masukkan angka kedua
+angka2 = st.number_input("Masukkan angka kedua")
 
 operasi = st.selectbox("Pilih operasi",["Penjumlahan","Pengurangan","Perkalian","Pembagian"])
 if st.button("Hitung"):
